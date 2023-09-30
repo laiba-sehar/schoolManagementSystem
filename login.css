@@ -1,0 +1,194 @@
+/* .Edureka {
+    font-size: 16px; 
+    color: #000; 
+    margin-left: 10px;
+    font-size: 23px;
+font-weight: 900;
+font-family: 'Times New Roman';
+top: 1px;
+line-height: 1px;
+letter-spacing: 0em;
+text-align: left;
+
+} */
+.icon-text-container {
+    display: flex;
+    align-items: center; }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-position: center;
+    background-color: #B4B4B4;
+}
+
+.wrapper{
+    width: 320px;
+    /* height: 60vh; */
+    /* color: #fff; */
+    background-color: white;
+    padding: 40px 20px;
+}
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+
+}
+.input-box{
+    /* position: relative; */
+    height: 100%;
+   /*  width: 50px;  */
+    background: transparent;
+    border: none;
+    /* outline: none; */
+    /* border-bottom: 1px solid #000000 */
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    top:10%;
+    margin-top: 3%;
+    background: transparent;
+    /* border: none; */
+     border: 1px solid #000;
+     /* box-shadow: 0px 2px 2px 0px #00000026; */
+    outline: none;
+    font-size: 16px;
+    padding: 15px 45px 15px 20px;
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+top:55%;
+transform: translateY(-10%);
+font-size: 18px;
+}
+input[type="password"],input[type="text"]{
+    width: 100%;
+    padding: 15px 45px 15px 20px;
+}
+.password-icon{
+    position: absolute;
+    top: 25px;
+    /* right: 15px; */
+}
+.hide
+{
+    visibility: hidden;
+}
+
+
+.wrapper .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    margin: -20px 0 25px;
+    /* font-size: 18px; */
+
+
+}
+.remember-forgot a{
+    color: #B4B4B4;
+text-decoration: none;
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+.wrapper .btn{
+    width:100%;
+    /* padding: 0px  0px 0px 0px; */
+    height: 45px;
+    background: #FFB800;
+    box-shadow: 0px 2px 2px 0px #00000026;
+    border:none;
+    outline: none;
+    color: #fff;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+}
+
+.wrapper1 .icon-text-container{
+
+    
+    background-color: #000;
+    height: 10vh;
+    width: 100%;
+    margin-top: -40px;
+   
+    /* padding: -10px -10px; */
+  
+    left:40px;
+ /* margin-top: -40px; */
+   height: 10vh;
+   width:320px;
+   /* width:50vh; */
+   /* width: 56.1vh; */
+   margin-left: -1.27pc;
+}
+.icon-text-container .Edureka{
+    color:#fff;
+    margin-top: 1px;
+    margin-left: 100px;
+    width: 100%;
+ 
+
+}
+.wrapper h3{
+    margin-top: 15px;
+    margin-left: 110px;
+    /* border-bottom: 1px solid #B4B4B4; */
+    /* width: 533px; */
+    top: 403.01px;
+}
+.input-box input:focus{
+    outline: 0;
+}
+.input-box :is(label, i){
+    color:#999;
+    /* size: 5cap; */
+}
+/* .input-box.success input{
+
+border-bottom-color: 1px solid #09c372;
+}
+.input-box.error .USERNAME{
+    border-bottom-color: 1px solid #ff3860;
+   
+} */
+.input-box .error{
+    margin-top: 3px;
+    color:  #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
+form input{
+    height:50px;
+    width:100%;
+}  
+.fa-eye-slash{
+    cursor: pointer;
+    color: lightgray;
+}
+.fa-eye{
+    cursor: pointer;
+    color: lightgray;
+}
+.fa-envelope{
+    /* color: lightgray; */
+    color: #999;
+}
+.fa-fire-flame-curved{
+    margin-right: 115px;
+    color: white;
+}
+
+     
